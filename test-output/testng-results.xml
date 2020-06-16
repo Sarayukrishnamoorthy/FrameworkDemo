@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="5" total="11" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity" duration-ms="4605" started-at="2020-06-16T10:57:36 PDT" finished-at="2020-06-16T10:57:41 PDT">
+    <groups>
+      <group name="Sanity">
+        <method signature="CalculatorTC.checkAddition()[pri:3, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkAddition" class="com.tekarch.testcases.CalculatorTC"/>
+        <method signature="CalculatorTC.checkDivision()[pri:6, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkDivision" class="com.tekarch.testcases.CalculatorTC"/>
+        <method signature="CalculatorTC.checkMultiplication()[pri:5, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkMultiplication" class="com.tekarch.testcases.CalculatorTC"/>
+        <method signature="CalculatorTC.checkSubtraction()[pri:4, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkSubtraction" class="com.tekarch.testcases.CalculatorTC"/>
+        <method signature="CalculatorTC.openCalculatorTab()[pri:2, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="openCalculatorTab" class="com.tekarch.testcases.CalculatorTC"/>
+        <method signature="LoginTC.checkValidLogin(java.lang.String, java.lang.String)[pri:2, instance:com.tekarch.testcases.LoginTC@42f93a98]" name="checkValidLogin" class="com.tekarch.testcases.LoginTC"/>
+      </group> <!-- Sanity -->
+    </groups>
+    <test name="Login" duration-ms="4605" started-at="2020-06-16T10:57:36 PDT" finished-at="2020-06-16T10:57:41 PDT">
+      <class name="com.tekarch.testcases.CalculatorTC">
+        <test-method status="PASS" signature="setUpPageObjects()[pri:0, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="setUpPageObjects" is-config="true" duration-ms="992" started-at="2020-06-16T10:57:36 PDT" finished-at="2020-06-16T10:57:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPageObjects -->
+        <test-method status="PASS" signature="openCalculatorTab()[pri:2, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="openCalculatorTab" duration-ms="146" started-at="2020-06-16T10:57:39 PDT" finished-at="2020-06-16T10:57:39 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openCalculatorTab -->
+        <test-method status="PASS" signature="checkAddition()[pri:3, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkAddition" duration-ms="845" started-at="2020-06-16T10:57:39 PDT" finished-at="2020-06-16T10:57:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddition -->
+        <test-method status="PASS" signature="checkSubtraction()[pri:4, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkSubtraction" duration-ms="297" started-at="2020-06-16T10:57:40 PDT" finished-at="2020-06-16T10:57:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSubtraction -->
+        <test-method status="PASS" signature="checkMultiplication()[pri:5, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkMultiplication" duration-ms="327" started-at="2020-06-16T10:57:40 PDT" finished-at="2020-06-16T10:57:40 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMultiplication -->
+        <test-method status="PASS" signature="checkDivision()[pri:6, instance:com.tekarch.testcases.CalculatorTC@c46bcd4]" name="checkDivision" duration-ms="297" started-at="2020-06-16T10:57:40 PDT" finished-at="2020-06-16T10:57:41 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkDivision -->
+      </class> <!-- com.tekarch.testcases.CalculatorTC -->
+      <class name="com.tekarch.testcases.LoginTC">
+        <test-method status="PASS" signature="initDependencies()[pri:0, instance:com.tekarch.testcases.LoginTC@42f93a98]" name="initDependencies" is-config="true" duration-ms="4821" started-at="2020-06-16T10:57:31 PDT" finished-at="2020-06-16T10:57:36 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDependencies -->
+        <test-method status="PASS" signature="setUpPageObjects()[pri:0, instance:com.tekarch.testcases.LoginTC@42f93a98]" name="setUpPageObjects" is-config="true" duration-ms="94" started-at="2020-06-16T10:57:37 PDT" finished-at="2020-06-16T10:57:37 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpPageObjects -->
+        <test-method status="PASS" signature="checkValidLogin(java.lang.String, java.lang.String)[pri:2, instance:com.tekarch.testcases.LoginTC@42f93a98]" name="checkValidLogin" duration-ms="1518" started-at="2020-06-16T10:57:37 PDT" data-provider="getValidCredentials" finished-at="2020-06-16T10:57:39 PDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin123@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkValidLogin -->
+        <test-method status="PASS" signature="closeDependencies()[pri:0, instance:com.tekarch.testcases.LoginTC@42f93a98]" name="closeDependencies" is-config="true" duration-ms="695" started-at="2020-06-16T10:57:41 PDT" finished-at="2020-06-16T10:57:42 PDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDependencies -->
+      </class> <!-- com.tekarch.testcases.LoginTC -->
+    </test> <!-- Login -->
+  </suite> <!-- Sanity -->
+</testng-results>

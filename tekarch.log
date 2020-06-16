@@ -1,0 +1,6 @@
+2020-06-16 10:57:37 INFO  com.tekarch.testcases.LoginTC 42 - checkValidLogin Method admin123@gmail.com admin123
+2020-06-16 10:57:37 INFO  com.tekarch.pageobjects.LoginPO 31 - login clicked
+2020-06-16 10:57:40 INFO  com.tekarch.testcases.CalculatorTC 40 - Addition Result 10
+2020-06-16 10:57:40 INFO  com.tekarch.testcases.CalculatorTC 47 - Subtraction Result 4
+2020-06-16 10:57:40 INFO  com.tekarch.testcases.CalculatorTC 54 - Multiplication Result 21
+2020-06-16 10:57:41 INFO  com.tekarch.testcases.CalculatorTC 61 - Division Result 3

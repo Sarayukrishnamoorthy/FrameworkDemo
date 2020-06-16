@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Sanity">
+  <test name="Login">
+    <classes>
+      <class name="com.tekarch.testcases.LoginTC">
+        <methods>
+      <include name="checkValidLogin"/>
+      </methods>
+      </class>
+      <class name="com.tekarch.testcases.CalculatorTC">
+      <methods>
+      <exclude name="login"/>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- Login -->
+</suite> <!-- Sanity -->
